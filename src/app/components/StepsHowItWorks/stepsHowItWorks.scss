@@ -1,0 +1,21 @@
+@media (min-width: 1040px) {
+    .indicator-p {
+        &::after {
+            content: '';
+            width: 100%;
+            height: 3px;
+            background-color: #570DF8;
+            position: absolute;
+            top: 4%;
+            left: 70%;
+        }
+    }
+}
+
+.step__bg-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../../assets/images/full-shot-smiley-couple-sitting-floor.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }

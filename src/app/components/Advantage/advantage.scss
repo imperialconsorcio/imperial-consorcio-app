@@ -1,0 +1,15 @@
+.advantage__bg-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../assets/images/couple-get-key.avif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+}
+
+.advantage__bg-white {
+  background-image: url(../../../assets/images/bg-white.avif);
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: cover;
+  background-position: top;
+}

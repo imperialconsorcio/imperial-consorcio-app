@@ -1,0 +1,48 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+}
+
+
+/* BREAKPOINTS */
+
+@media (max-width: 767px) {
+    .header {
+        &::before {
+            background: rgba(0, 0, 0, .1);
+            backdrop-filter: blur(50px);
+        }
+    }
+    .header__navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: rgba(0, 0, 0, .1);
+        backdrop-filter: blur(50px);
+        overflow: hidden;
+        transition: .3s ease;
+    }
+    .header__nav--open-menu {        
+        height: 17.7rem;
+        a {
+            transform: translateY(0);
+        }
+    }
+}

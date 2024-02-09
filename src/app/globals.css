@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-p {
+    @apply bg-[#7F3CE0] btn btn-primary glass text-white;
+  }
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+.h2 {
+  font-size: 72px;
+  background-color: #4158D0;
+  background: linear-gradient(251deg, #461096 0.57%, #7F3CE0 99.97%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.bg-purple-p {
+  background: hsla(276, 91%, 79%, 1);
+  background: linear-gradient(90deg, hsla(276, 91%, 79%, 1) 0%, hsla(254, 74%, 65%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(276, 91%, 79%, 1) 0%, hsla(254, 74%, 65%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(276, 91%, 79%, 1) 0%, hsla(254, 74%, 65%, 1) 100%);
+}
+
+.bg-purple-clear {
+  background: linear-gradient(251deg, #461096 0.57%, #7F3CE0 99.97%);
+}
+
+.bg-blue-p {
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.bg-teste-p {
+  background-image: linear-gradient(43deg, #FFCC70 0%, #C850C0 46%, #4158D0 100%);
+}
+
+.bg-btn-reverse {
+  background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+}
